@@ -16,3 +16,11 @@ position = Vector2( 800, 1024 )
 
 [node name="Ball" parent="." instance=ExtResource( 3 )]
 position = Vector2( 648, 1024 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 814, 606 )
+current = true
+zoom = Vector2( 2, 2 )
+process_mode = 0
+editor_draw_limits = true
+editor_draw_drag_margin = true
